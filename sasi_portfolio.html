@@ -1,84 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sasichandaka | Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #0066cc;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-    section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-      background-color: white;
-      margin-top: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h2 {
-      color: #0066cc;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    a {
-      color: #0066cc;
-    }
-    footer {
-      text-align: center;
-      padding: 10px;
-      margin-top: 20px;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sasi Preetham Chandaka | DevOps Engineer</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* NAVBAR */
+nav {
+  background: #000428;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #00c6ff;
+}
+
+/* HERO */
+header {
+  background: linear-gradient(90deg, #004e92, #000428);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #004e92;
+  border-bottom: 3px solid #004e92;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* GRID */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: #f8f9fb;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #004e92;
+}
+
+.skill-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+/* PROJECT CARDS */
+.project-card {
+  background: #f8f9fb;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #004e92;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact a {
+  color: #004e92;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000428;
+  color: white;
+  margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 26px;
+  }
+}
+</style>
 </head>
+
 <body>
-  <header>
-    <h1>Sasichandaka</h1>
-    <p>ML Data Associate | Aspiring Data Analyst</p>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m an ML Data Associate with 1 year of experience at Amazon Go AI. I’m passionate about data, automation, and cloud technologies. Currently seeking opportunities in data analytics or cloud support roles.</p>
-  </section>
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <section id="objective">
-    <h2>Career Objective</h2>
-    <p>To grow in the field of data and cloud technologies by contributing to real-world problem-solving. Eager to join a dynamic team and enhance my skills in analytics, automation, and support engineering.</p>
-  </section>
+<header>
+  <h1>Sasi Preetham Chandaka</h1>
+  <p>DevOps Engineer | AWS Cloud | CI/CD | Kubernetes | Automation</p>
+</header>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Languages: Python, SQL</li>
-      <li>Tools: Excel, Pandas, NumPy</li>
-      <li>Cloud: AWS (S3, EC2 basics)</li>
-      <li>Other: GitHub, Jupyter, VS Code</li>
-    </ul>
-  </section>
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    DevOps & Cloud Engineer with 1.5+ years of experience supporting AWS production 
+    environments at Amazon. Passionate about Infrastructure as Code, CI/CD automation, 
+    container orchestration, monitoring, and building scalable cloud-native systems.
+    Currently seeking DevOps / Cloud Engineer roles .
+  </p>
+</section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:sasichandaka143@gmail.com">sasichandaka143@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/sasi-preetham-chandaka-b077761b3/" target="_blank">linkedin.com/in/sasi-preetham-chandaka</a></p>
-  </section>
+<section id="skills">
+  <h2>Technical Skills</h2>
 
-  <footer>
-    &copy; 2025 Sasichandaka. All rights reserved.
-  </footer>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <strong>AWS Cloud Services</strong>
+      <ul>
+        <li><b>Compute:</b> EC2, Auto Scaling, Elastic Beanstalk</li>
+        <li><b>Storage:</b> S3, EBS, EFS</li>
+        <li><b>Networking:</b> VPC, Subnets, Route Tables, NAT Gateway, Internet Gateway</li>
+        <li><b>Load Balancing:</b> ALB, NLB</li>
+        <li><b>Security:</b> IAM, Security Groups, NACL, KMS (Basics)</li>
+        <li><b>Monitoring:</b> CloudWatch, CloudTrail</li>
+        <li><b>Databases:</b> RDS, DynamoDB (Basics)</li>
+        <li><b>DNS:</b> Route53</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <strong>Infrastructure as Code</strong>
+      <ul>
+        <li>Terraform (AWS Provisioning)</li>
+        <li>Ansible (Configuration Management)</li>
+        <li>High Availability & Multi-AZ Concepts</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <strong>CI/CD & DevOps Tools</strong>
+      <ul>
+        <li>Jenkins</li>
+        <li>GitHub Actions</li>
+        <li>GitLab CI</li>
+        <li>Maven</li>
+        <li>SonarQube</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <strong>Containers & Orchestration</strong>
+      <ul>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>OpenShift</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <strong>Monitoring & Logging</strong>
+      <ul>
+        <li>CloudWatch</li>
+        <li>Prometheus</li>
+        <li>Grafana</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <strong>Scripting & OS</strong>
+      <ul>
+        <li>Bash</li>
+        <li>Python</li>
+        <li>Linux (Ubuntu, Amazon Linux)</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects">
+  <h2>DevOps Projects</h2>
+
+  <div class="project-card">
+    <h3>AWS Infrastructure Automation using Terraform</h3>
+    <p>
+      Provisioned VPC, Subnets, EC2, Security Groups, and Load Balancers 
+      using Infrastructure as Code principles. Designed scalable architecture 
+      with monitoring integration.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>CI/CD Pipeline with Jenkins & Docker</h3>
+    <p>
+      Implemented automated build and deployment pipeline.
+      Dockerized applications and reduced manual deployment effort.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>Kubernetes Deployment</h3>
+    <p>
+      Deployed containerized applications in Kubernetes cluster.
+      Configured deployments, services, and scaling concepts.
+    </p>
+  </div>
+
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:sasichandaka143@gmail.com">sasichandaka143@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/sasi-preetham-chandaka-b077761b3/" target="_blank">
+    linkedin.com/in/sasi-preetham-chandaka
+  </a></p>
+  <p>GitHub: <a href="https://github.com/sasipreethamchandaka/" target="_blank">
+    github.com/sasipreethamchandaka
+  </a></p>
+</section>
+
+<footer>
+  © 2026 Sasi Preetham Chandaka | DevOps & Cloud Portfolio
+</footer>
+
 </body>
 </html>
